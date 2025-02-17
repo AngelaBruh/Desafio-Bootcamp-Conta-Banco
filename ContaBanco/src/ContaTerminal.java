@@ -15,6 +15,8 @@ public class ContaTerminal {
     System.out.println("Informe a agência da conta:");
     String agencia = leitor.nextLine();
 
+    leitor.nextLine();
+
     System.out.println("Qual o valor que deseja depositar?");
     double saldo = leitor.nextDouble();
 
@@ -22,11 +24,5 @@ public class ContaTerminal {
 
     System.out.println("Olá " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
     " ,conta " + numero + " e seu saldo " + saldo + " já está disponivel para saque.");
-
-
-
-
-
-
   }
 }
