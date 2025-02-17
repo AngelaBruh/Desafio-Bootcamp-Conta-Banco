@@ -1,4 +1,4 @@
-import java.util.Locale;
+//import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -20,7 +20,7 @@ public class ContaTerminal {
 
     System.out.println("===========================================");
 
-    System.out.println("Olá " + nomeCliente + "obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
+    System.out.println("Olá " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
     " ,conta " + numero + " e seu saldo " + saldo + " já está disponivel para saque.");
 
 
